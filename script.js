@@ -55,22 +55,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-
-// const game = () => {
-//   for (let i = 0; i < 5; i++) {
-//     let playerPrompt = prompt('Rock, paper, or scissors?');
-    
-//     while (playerPrompt.toLowerCase() !== 'rock' && playerPrompt.toLowerCase() !== 'paper' && playerPrompt.toLowerCase() !== 'scissors') {
-//       alert('Invalid choice! Please enter rock, paper, or scissors.');
-//       playerPrompt = prompt('Rock, paper, or scissors?');
-//     }
-
-//     const playerChoice = playerPrompt.toLowerCase();
-//     const cpuChoice = getComputerChoice().toLowerCase();
-
-//     console.log(playRound(playerChoice, cpuChoice));
-//   }
-// }
-
-// game();
-
